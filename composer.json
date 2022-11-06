@@ -1,0 +1,22 @@
+{
+    "name": "nick44/package-nick-php-user-agent-service",
+    "description": "short",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nick44"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Nick44\\UserAgent\\": "./src"
+        }
+    },
+    "require": {
+        "donatj/phpuseragentparser": "^1.7",
+        "nick44/package-nick-user-agent-interface": "1",
+        "laravel/framework": "^9.19"
+    }
+}
