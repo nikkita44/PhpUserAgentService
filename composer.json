@@ -16,7 +16,7 @@
     },
     "require": {
         "donatj/phpuseragentparser": "^1.7",
-        "nick44/package-nick-user-agent-interface": "*",
+        "nick44/package-nick-user-agent-interface": "^1.0",
         "laravel/framework": "^9.19"
     }
 }
